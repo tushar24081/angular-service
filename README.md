@@ -15,5 +15,5 @@ I have used something called json-server to create a dummy API.
 `npm i json-server`
 create a db.json file in root folder
 
-##Execute JSON Server
+## Execute JSON Server
 `json-server --watch db.json`
