@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "Meet PPP",
+      "day": "Friday, 10:00",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Angular Practice",
+      "day": "Saturday, 12:00",
+      "reminder": false,
+      "id": 2
+    }
+  ]
+}

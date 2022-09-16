@@ -1,0 +1,4 @@
+<div class="task" *ngIf="task" [ngClass]="{reminder: task.reminder}">
+    <h3>{{task?.text}} <fa-icon [ngStyle]="{'color': 'red'}" [icon]="faTimes" (click) = "deleting(task)"></fa-icon></h3>
+    <p>{{task?.day}}</p>
+</div>

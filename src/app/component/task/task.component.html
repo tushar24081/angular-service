@@ -1,0 +1,6 @@
+
+<app-add-form></app-add-form>
+<app-task-item *ngFor="let task of tasks" [task]="task" (dblclick) = "taskReminder(task)"></app-task-item>
+
+<!-- (onDeleteTask)="deleteTask(task)" -->
+
